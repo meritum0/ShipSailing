@@ -1,0 +1,5 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/SailingHud.uss?fileID=7433441132597879392&amp;guid=7de891af7f34b4079a0e6ccd3c8fee3f&amp;type=3#SailingHud"/>
+    <ui:Label text="Sail Opening: 0%" name="sail-opening-label" class="hud-label hud-label--opening" style="top: 0;"/>
+    <ui:Label text="Sail Rotation: 0°" name="sail-rotation-label" class="hud-label hud-label--rotation" style="top: 0;"/>
+</ui:UXML>

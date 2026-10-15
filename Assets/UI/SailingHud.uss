@@ -1,0 +1,52 @@
+.hud-label {
+    position: absolute;
+    left: 24px;
+    -unity-font-style: bold;
+    font-size: 22px;
+    color: rgb(240, 248, 255);
+    background-color: rgba(8, 18, 28, 0.784);
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-right: 14px;
+    padding-left: 14px;
+    background-image: url("project://database/Assets/Art/Textures/white.png?fileID=2800000&guid=6abc22ce649c344c7aa952098837b683&type=3#white");
+    background-repeat: no-repeat no-repeat;
+    width: 420px;
+    height: 56px;
+    background-position-x: left 0;
+    background-position-y: top 0;
+    background-size: 0% 100%;
+    -unity-text-align: middle-center;
+    letter-spacing: 1.5px;
+    text-shadow: 0 1px 4px rgba(0, 0, 0, 0.902);
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 6px;
+    border-left-color: rgba(255, 255, 255, 0.18);
+    border-right-color: rgba(255, 255, 255, 0.18);
+    border-top-color: rgba(255, 255, 255, 0.18);
+    border-bottom-color: rgba(255, 255, 255, 0.18);
+    top: auto;
+}
+
+.hud-label--opening {
+    top: 24px;
+    border-left-color: rgb(0, 214, 190);
+    background-color: rgba(0, 190, 170, 0.6);
+    position: relative;
+    color: rgb(0, 0, 0);
+}
+
+.hud-label--rotation {
+    top: 90px;
+    border-left-color: rgb(255, 176, 32);
+    transition-property: none;
+    transition-duration: 0.2s;
+    position: relative;
+    color: rgb(47, 209, 255);
+}
